@@ -86,6 +86,12 @@
     <mu1>0.0</mu1>
     <mu2>0.0</mu2>
   </gazebo>
+  
+  <gazebo reference="conveyor_link">
+  <mu1>0</mu1>
+  <mu2>0</mu2>
+  <material>Gazebo/White</material>
+</gazebo>
 
   <!-- This is an wheel-level solution to possibly revisit at a future date. -->
   <!--<gazebo>
